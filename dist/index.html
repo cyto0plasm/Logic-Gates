@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://circuitverse.org/assets/homepage/combinations%20analysis-0998259ff3f76fb666da45ef6b9cca15503940bcbae7f900778b5b27301ebeb8.png"
+    />
+    <title>Logic Gates</title>
+  </head>
+  <body>
+    <!-- mobile navbar buttons (not completed) -->
+    <!--
+       <div class="md:hidden">
+      <div
+        id="mobile-menu"
+        class="absolute grid grid-rows-4 font-bold drop-shadow-2xl border border-gray-400 mt-20"
+      >
+        <a href="#" class="">Home</a>
+        <a href="#" class="">Gates</a>
+        <a href="#" class="">Project</a>
+        <a href="#" class="">Team</a>
+      </div>
+    </div> 
+  -->
+    <!--------------- navbar Start --------------->
+    <nav
+      class="mx-auto pr-4 pl-2 sm:px-2 md:px-6 lg:px:8 bg-[#273430] text-white"
+    >
+      <div class="flex flex-row item-center justify-between">
+        <!------------ search ------------->
+        <div
+          id="search"
+          class="flex flex-nowrap items-center md:w-[300px] sm:w-[200px]"
+        >
+          <button id="search-btn" class="py-3 px-2">
+            <img src="img/search-line.png" alt="search" />
+          </button>
+          <input
+            id="search-input"
+            class="bg-[#273430] hidden md:flex"
+            type="search"
+            placeholder="Search Here"
+          />
+        </div>
+        <!------------ Logo ------------>
+        <div
+          class="lg:mx-[auto] md:mx-[0] lg:pl-[4rem] md:pl-[0rem] md:pr-0 sm:pl-0 sm:mr-[10rem] flex shrink-0"
+        >
+          <!------ logo img ------>
+          <img
+            id="logo"
+            width="100px"
+            height="80px"
+            src="img/logo.png"
+            alt="EL-HATTABA"
+          />
+        </div>
+        <!------------- menu icon ------------->
+
+        <div id="menu">
+          <button id="mobile-btn" class="md:hidden pt-[1rem]">
+            <img src="img/menu-line.png" alt="Menu" />
+          </button>
+        </div>
+
+        <!--------------- buttons --------------->
+        <div
+          id="nav-btns"
+          class="hidden md:flex flex-row items-center gap-4 font-mono tracking-wide"
+        >
+          <a href="#" class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Home</a
+          >
+          <a href="#" class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Gates</a
+          >
+          <a href="#" class="text-lg font-bold tracking-widest h-8 px-3 py-1"
+            >Project</a
+          >
+          <a
+            href="#"
+            class="text-lg font-bold tracking-widest h-8 pr-4 px-3 py-1"
+            >Team</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--------------- navbar End --------------->
+    <!--------------- body Start --------------->
+    <section id="sec" class="md:w-[70%] sm:w-[90%]">
+      <h1 class="mt-3 mb-5 text-center text-2xl font-bold">Logic Gates</h1>
+      <div id="body" class="leading-relaxed">
+        <p
+          class="h-[auto] mx-4 my-3 text-justify overflow-hidden text-[1.3rem]"
+        >
+          We send information through computers using wires that represent 1s
+          and 0s. Computers need a way to manipulate those 1s and 0s, so that
+          they can eventually do more complicated operations .
+        </p>
+
+        <p class="mx-4 my-3 text-justify text-[1.3rem]">
+          Computers use logic gates to transform the 1s and 0s from input wires.
+          A logic gate accepts inputs and then outputs a result based on their
+          state.
+        </p>
+        <div>
+          <h2 class="mt-3 mb-5 text-center text-3xl font-bold">Project</h2>
+          <p class="mx-4 my-3 text-justify text-[1.3rem]">
+            Logic gates are the fundamental components of all digital circuits
+            and systems. In digital electronics, there are seven main types of
+            logic gates used to perform various logical operations. A logic gate
+            is basically an electronic circuit designed by using components like
+            diodes, transistors, resistors, capacitors, etc., and capable of
+            performing logical operations. In this article, we will study the
+            definition, truth table, and other related concepts of logic gates.
+            So let's start with the basic introduction of logic gates.
+          </p>
+        </div>
+
+        <img
+          class=""
+          src="img/logic gates-Home.jpeg"
+          alt="Logic Gates Symbols"
+        />
+      </div>
+    </section>
+    <!--------------- body End --------------->
+    <!-- -----------Footer Start----------- -->
+
+    <!-- Names Start-------------- -->
+    <footer class="bg-[#273430] text-white py-[20px]">
+      <div class="flex flex-row justify-around leading-relaxed">
+        <div id="leader">
+          <h3 class="font-bold text-[1rem] text-[#75d8bc]">Leader</h3>
+          <h2 class="">Mohamed Elsify</h2>
+        </div>
+        <div id="emplementers">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">
+            Project Implementers
+          </h2>
+          <ul type="1">
+            <li>Osama Hamada</li>
+            <li>Esraa Fayez</li>
+            <li>Kero</li>
+            <li>Mohamed Abo Arab</li>
+            <li>Rehab</li>
+          </ul>
+        </div>
+        <div id="Website">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Website</h2>
+          <ul type="1">
+            <li>Aya</li>
+            <li>Donia</li>
+            <li>Kareem</li>
+            <li>Mahmoud Al-Amouri</li>
+            <li>Yousif Zaki</li>
+          </ul>
+        </div>
+        <div id="catalog">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Catalog</h2>
+          <ul type="1">
+            <li>Emaan Amr</li>
+            <li>Mohamed Ebrahim</li>
+          </ul>
+        </div>
+        <div id="Video ">
+          <h2 class="font-bold text-[1rem] text-[#75d8bc]">Video</h2>
+          <ul type="1">
+            <li>Asmaa</li>
+          </ul>
+        </div>
+        <!-- Names End-------------- -->
+
+        <!-- Social Media  Start------------->
+        <div class="w-[180px]" id="social">
+          <img width="80px" height="80px" src="img/logo.png" alt="Logo" />
+          <div class="flex flex-row justify-around">
+            <a href="#"
+              ><img src="img/youtube-line.png" width="30px" alt="Youtube"
+            /></a>
+            <a href="#"
+              ><img
+                src="img/facebook-circle-line.png"
+                width="30px"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="img/instagram-line.png" width="30px" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="img/twitter-x-line (1).png" width="30px" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+        <!-- Social Media  End------------->
+      </div>
+    </footer>
+    <!-- -----------Footer End----------- -->
+  </body>
+  <script src="script.js"></script>
+</html>

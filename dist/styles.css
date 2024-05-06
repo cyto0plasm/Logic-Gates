@@ -1,0 +1,177 @@
+/* --reset-- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------NAVBAR------------------- */
+/* #search-input {
+    max-width: 12rem;
+} */
+
+/* ----------- menu ----------- */
+#mobile-btn {
+    width: 2rem;
+    height: 5rem;
+}
+
+/* navbar buttons hover,underline*/
+#nav-btns a {
+    color: rgb(213, 228, 228);
+}
+
+#nav-btns a:hover,
+#nav-btns a:focus {
+    color: rgb(135, 232, 202);
+
+    bottom: -1;
+    transition: all 0.5s;
+}
+
+#nav-btns :not(a:hover),
+#nav-btns a:focus {
+
+    transition: all .4 ease-out;
+}
+
+#nav-btns a:active {
+    color: rgb(123, 138, 139);
+    scale: 1.15;
+    transition: all .1 ease-in;
+
+}
+
+#nav-btns a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #44b699;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+#nav-btns a:hover::after {
+    opacity: 1;
+
+}
+
+#nav-btns a:active::after {
+    background-color: #75d8bc;
+}
+
+#nav-btns a:focus::after {
+    opacity: 1;
+}
+
+#search {
+    /*  position: absolute;
+    top: 0;
+    right: 0; */
+
+}
+
+/* -------- nav search --------*/
+/* -------input------- */
+#search input::placeholder {
+    text-indent: 1rem;
+}
+
+#search input {
+    width: 190px;
+    height: 35px;
+    /* margin-top: 8px; */
+    border: #ffffff .1rem solid;
+    border-radius: 10px;
+    /*  */
+}
+
+#search input:focus {
+    width: 210px;
+    height: 40px;
+    transition: all .2s;
+    transform-origin: 50% 50%;
+    border: #75d8bc .15rem solid;
+    outline: none;
+
+}
+
+/* --------icon-------- */
+#search button img {
+    width: 35px;
+
+}
+
+#search button img:hover {
+    width: 40px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: 50% 50%;
+
+}
+
+#search button img:not(:hover) {
+    transition: all 0.2s ease-out;
+
+}
+
+#search button img:active {
+    width: 35px;
+    transition: all 0.1s;
+}
+
+#search-btn {
+    width: 4rem;
+    height: 5rem;
+}
+
+
+/* -----------Menu----------- */
+div#menu {
+    width: 70px;
+    text-align: center;
+}
+
+#menu button {
+    width: 35px;
+}
+
+#menu button:hover {
+    width: 40px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: 50% 50%;
+}
+
+#menu button:not(:hover) {
+    transition: all 0.2s ease-out;
+}
+
+#menu button:active {
+    width: 35px;
+    transition: all 0.1s;
+}
+
+/* ----body start---- */
+#sec {
+    /* margin-inline: 30%; */
+
+    align-items: center;
+    margin: 0px auto;
+}
+
+#body {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+}
+
+/* ----------Footer---------- */
+#social a:hover {
+    opacity: 50%;
+    transition: all .6 ease;
+}
+
+#social a:focus {
+    opacity: 70%;
+    transition: all .6 ease;
+}
